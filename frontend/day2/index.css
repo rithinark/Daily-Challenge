@@ -8,6 +8,8 @@ html {
     color: white;
   }
   @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+
+
   .container.bg {
     background-color: hsl(235, 16%, 14%);
     min-height: 100vh;
@@ -20,6 +22,12 @@ html {
     align-items: center;
     flex-direction: column;
     position: relative;
+  }
+  .main-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10% 0;
   }
   
   .heading {
@@ -160,10 +168,7 @@ html {
   
   .social {
     display: flex;
-    position: absolute;
-    bottom: 8%;
-    left: 50%;
-    transform: translateX(-50%);
+ 
   }
   
   .icon {
